@@ -1,4 +1,4 @@
-import UnauthorizedService from './unauthorized.service.js';
+import UnauthorizedService from './unAuthorized.service.js';
 
 class UnauthorizedController {
   async checkUserNameAvailability(req, res, next) {

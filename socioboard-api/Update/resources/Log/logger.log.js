@@ -10,8 +10,8 @@ const {
 
 require('winston-daily-rotate-file');
 
-if (!fs.existsSync('resources/log/ResponseLog')) {
-  fs.mkdirSync('resources/log/ResponseLog');
+if (!fs.existsSync('resources/Log/ResponseLog')) {
+  fs.mkdirSync('resources/Log/ResponseLog');
 }
 const transportsLogger = [];
 
@@ -19,7 +19,7 @@ transportsLogger.push(
   new transports.DailyRotateFile({
     level: process.env.ENV === 'localDev' ? 'debug' : 'info',
     datePattern: 'DD-MM-YYYY',
-    filename: 'resources/log/ResponseLog/update%DATE%.log',
+    filename: 'resources/Log/ResponseLog/update%DATE%.log',
     handleExceptions: true,
     json: true,
     maxSize: '1g',

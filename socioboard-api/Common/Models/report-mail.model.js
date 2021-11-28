@@ -15,7 +15,7 @@ import GoogleHelper from '../Cluster/google.cluster.js';
 import db from '../Sequelize-cli/models/index.js';
 import TeamReport from './team-report.model.js';
 import { PdfMaker } from '../pdf-maker/pdf-maker.js';
-import logger from '../../Update/resources/log/logger.log.js';
+import logger from '../../Update/resources/Log/logger.log.js';
 import PublishedPost from '../Mongoose/models/published-posts.js';
 import SchedulePostModel from '../Mongoose/models/schedule-posts.js';
 

@@ -8,7 +8,7 @@ import Facebook from '../../../Common/Cluster/facebook.cluster.js';
 import Google from '../../../Common/Cluster/google.cluster.js';
 import Github from '../../../Common/Cluster/github.cluster.js';
 import TwitterInsightPostModel from '../../../Common/Mongoose/models/twitter-insights.js';
-import UnauthorizedLibs from '../../../Common/Models/unauthorized.model.js';
+import UnauthorizedLibs from '../../../Common/Models/unAuthorized.model.js';
 import UserTeamAccount from '../../../Common/Shared/user-team-accounts.shared.js';
 import TwtConnect from '../../../Common/Cluster/twitter.cluster.js';
 import TeamLibs from '../../../Common/Models/team.model.js';

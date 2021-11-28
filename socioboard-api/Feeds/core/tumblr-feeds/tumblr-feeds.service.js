@@ -5,7 +5,7 @@ import { SuccessResponse, CatchResponse, ValidateErrorResponse, ErrorResponse } 
 import TumblrMongoPostModel from '../../../Common/Mongoose/models/tumblr-post.js';
 import TumblrConnect from '../../../Common/Cluster/tumblr.cluster.js';
 import FeedsLibs from '../../../Common/Models/feeds.model.js';
-import logger from './../../resources/log/logger.log.js';
+import logger from './../../resources/Log/logger.log.js';
 import db from '../../../Common/Sequelize-cli/models/index.js';
 const accountUpdateTable = db.social_account_feeds_updates;
 

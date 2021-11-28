@@ -7,7 +7,7 @@ import FeedsLibs from '../../../Common/Models/feeds.model.js';
 import db from '../../../Common/Sequelize-cli/models/index.js';
 import FacebookHelper from '../../../Common/Cluster/facebook.cluster.js';
 import InstaConnect from '../../../Common/Cluster/instagram.cluster.js';
-import logger from './../../resources/log/logger.log.js'
+import logger from './../../resources/Log/logger.log.js'
 
 const accountUpdateTable = db.social_account_feeds_updates;
 import {

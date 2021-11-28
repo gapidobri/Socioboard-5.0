@@ -1,5 +1,5 @@
 import AuthorizedLibs from '../../../Common/Models/authorized.model.js';
-import UnauthorizedLibs from '../../../Common/Models/unauthorized.model.js';
+import UnauthorizedLibs from '../../../Common/Models/unAuthorized.model.js';
 import {
   ErrorResponse,
   SuccessResponse,

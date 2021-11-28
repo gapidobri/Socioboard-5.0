@@ -4,9 +4,9 @@
  */
 import Router from 'express';
 /**
- * @typedef {import('./unauthorized.controller.js')}
+ * @typedef {import('./unAuthorized.controller.js')}
  */
-import unauthorizedController from './unauthorized.controller.js';
+import unauthorizedController from './unAuthorized.controller.js';
 /**
  * Express router for user related operations
  * @type {import('express').Router}

@@ -4,7 +4,7 @@ import userTeamAccounts from '../../../Common/Shared/user-team-accounts.shared.j
 import { SuccessResponse, CatchResponse, ValidateErrorResponse } from '../../../Common/Shared/response.shared.js';
 import PinterestMongoPinsModel from '../../../Common/Mongoose/models/pinterest-pins.js';
 import PinterestConnect from '../../../Common/Cluster/pinterest.newcluster.js';
-import logger from './../../resources/log/logger.log.js';
+import logger from './../../resources/Log/logger.log.js';
 import db from '../../../Common/Sequelize-cli/models/index.js';
 const accountUpdateTable = db.social_account_feeds_updates;
 const Pincluster = new PinterestConnect();

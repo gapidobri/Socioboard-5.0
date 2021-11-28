@@ -7,7 +7,7 @@ import {
 import config from 'config';
 import validate from './otp-verification.validator.js';
 import OtpVerificationLibs from '../../../Common/Models/otp-verification.model.js';
-import UnauthorizedLibs from '../../../Common/Models/unauthorized.model.js';
+import UnauthorizedLibs from '../../../Common/Models/unAuthorized.model.js';
 const unauthorizedLibs = new UnauthorizedLibs();
 
 class OtpVerificationController {

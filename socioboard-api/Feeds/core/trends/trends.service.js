@@ -4,7 +4,7 @@ import fs from 'fs';
 import TrendsServices from '../../../Common/Cluster/trends.cluster.js';
 import TwitterHelper from '../../../Common/Cluster/twitter.cluster.js';
 import TrendsValidate from './trends.validate.js';
-import Logger from '../../resources/log/logger.log.js';
+import Logger from '../../resources/Log/logger.log.js';
 
 import {
   ErrorResponse, SuccessResponse, CatchResponse, ValidateErrorResponse,

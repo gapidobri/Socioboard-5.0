@@ -22,7 +22,7 @@ import MongoConnect from './resources/database/mongo.database.js';
 import DbConnect from './resources/database/mysql.database.js';
 import Routes from './resources/routes/public.routes.js';
 
-import Logger from './resources/log/logger.log.js';
+import Logger from './resources/Log/logger.log.js';
 
 if (process.env.IS_DEBUGGING) console.log(__filename);
 const swaggerFile = JSON.parse(

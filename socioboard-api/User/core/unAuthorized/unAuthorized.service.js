@@ -6,7 +6,7 @@ import twitterApi from 'node-twitter-api';
 import axios from 'axios';
 import facebook from 'fb';
 import db from '../../../Common/Sequelize-cli/models/index.js';
-import UnauthorizedLibs from '../../../Common/Models/unauthorized.model.js';
+import UnauthorizedLibs from '../../../Common/Models/unAuthorized.model.js';
 import {
   SuccessResponse,
   ValidateErrorResponse,
@@ -15,7 +15,7 @@ import {
   SocialCallbackResponse,
 } from '../../../Common/Shared/response.shared.js';
 import CoreServices from '../../../Common/Services/core.services.js';
-import validate from './unauthorized.validate.js';
+import validate from './unAuthorized.validate.js';
 import TwtConnect from '../../../Common/Cluster/twitter.cluster.js';
 import Authorize from '../../../Common/Services/authorize.services.js';
 

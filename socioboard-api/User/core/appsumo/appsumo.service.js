@@ -3,7 +3,7 @@ import {ValidateErrorResponse} from '../../../Common/Shared/response.shared.js';
 import AuthorizeServices from '../../../Common/Services/authorize.services.js';
 import SendEmailServices from '../../../Common/Services/mail-base.services.js';
 import validator from './appsumo.validator.js';
-import UnauthorizedLibs from '../../../Common/Models/unauthorized.model.js';
+import UnauthorizedLibs from '../../../Common/Models/unAuthorized.model.js';
 const unauthorizedLibs = new UnauthorizedLibs();
 import aMember from '../../../Common/Mappings/amember.users.js';
 import db from '../../../Common/Sequelize-cli/models/index.js';
